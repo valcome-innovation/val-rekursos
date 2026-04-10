@@ -4,7 +4,7 @@
   "description": "Rekursos: Titan of TypeScript 🔱🏛️ A simple TypeScript library providing essential utility functions, helpers, and operators.",
   "scripts": {
     "test": "jest",
-    "build": "tsc --project tsconfig.esm.json & tsc --project tsconfig.cjs.json",
+    "build": "tsc --project tsconfig.esm.json & tsc --project tsconfig.cjs.json && node scripts/fix-esm-extensions.mjs",
     "barrels": "barrelsby --directory src --delete --singleQuotes --noHeader -e \".*\\\\.spec\\\\.ts\""
   },
   "private": false,
