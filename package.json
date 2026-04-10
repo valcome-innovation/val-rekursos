@@ -1,6 +1,6 @@
 {
   "name": "@valcome/rekursos",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Rekursos: Titan of TypeScript 🔱🏛️ A simple TypeScript library providing essential utility functions, helpers, and operators.",
   "scripts": {
     "test": "jest",
